@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Home</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="shourtcut icon" href="android-chrome-512x512.png" type="images/jpg">
+    <style>
+      body {
+        background-color: rgb(0, 0, 0);
+      }
+      .rounded-img {
+        width: 60%;
+        border-radius: 50%;
+        padding: 0.6em;
+        background-color: #FFC107;
+        box-shadow: 0px 0px 40px 5px #FFC107;
+        /* in order: x offset, y offset, blur size, spread size, color */
+        /* blur size and spread size are optional (they default to 0) */
+        margin-bottom: 1em;
+      }
+
+      p,
+      h1,
+      h2,
+      h3 {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-warning">
+      <div class="container">
+        <a class="navbar-brand p-0" href="index.html">
+          <img src="VIS.png" alt="logo" width="55">
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="places.html">Favorite places</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-lg-5 col-lg-2 mx-auto">
+          <img class="rounded-img" src="img.jpg" alt="Mark" />
+          <h1 class="fw-light">Ivan</h1>
+          <p class="lead">
+            I am excited to teach you software development. In this html course
+            you will build your personal website
+          </p>
+          <a
+            href="https://www.instagram.com/advacehowlard/"
+            target="_blank"
+            class="btn btn-primary bg-warning" style="--bs-btn-border-color: #CCF107; --bs-btn-hover-border-color: #FFC107; --bs-btn-border-width: 0px;"
+          >
+            My instagram
+          </a>
+          <a
+            href="https://www.youtube.com/watch?v=4VxdufqB9zg"
+            target="_blank"
+            class="btn btn-secondary" style="--bs-btn-border-width: 0px;"
+          >
+            YouTube
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
